@@ -1,0 +1,74 @@
+body{
+         background-color: powderblue;
+         height: 100vh;
+         font-family: "Comic Sans MS", cursive;
+         background-size: cover;
+         background-position: center;
+}
+.login-page{
+  width:360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+.form{
+      position:relative;
+      z-index: 1;
+      background-color:#ffffff ;
+      max-width: 360px;
+      margin: 0 auto 50px;
+      padding: 20px;
+      text-align: center;
+      top: 50px;
+}
+.form input{
+     font-family: "Roboto",sans-serif;
+     outline: 1;
+     background: #f2f2f2;
+     width: 100%;
+     border: 0;
+     margin: 0 0 15px;
+     padding: 45px;
+     box-sizing: border-box;
+     font-size: 14px;
+}
+.form button{
+      font-family: "Roboto",sans-serif;
+      text-transform:uppercase;
+      outline: 0;
+      background: #4CAF50;
+      width: 100%
+      border:0;
+      padding: 15px;
+      color: #FFFF;
+      font-size:14px;
+      cursor: pointer;
+}
+.form button :hover, .form button:active{
+  /** background: #fffff;**/
+}
+. form .message{
+  margin-left: 15px 0 0;
+  color: aliceblue;
+  font- size: 12px;
+}
+ .form .register-form{
+   display: none;
+
+ }
+h1{
+  text-align: center;
+  padding-top: 50px;
+  color: black;
+  font-family: 'Orelega One', cursive;
+  font-size: 50px;
+}
+.top_cloud{
+  position: absolute;
+  right: 200px;
+  top: 30px;
+}
+.bottom_cloud{
+  position: absolute;
+  left: 200px;
+  bottom: 500px;
+}
